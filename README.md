@@ -66,15 +66,15 @@ In our simplified version:
 
 PKCS#1 v1.5 improves security because:
 
-#### Randomness (BT = 02)
+#### 1. Randomness (BT = 02)
 When padding is random:
 - The same message produces different ciphertexts
 - Dictionary attacks become ineffective
 
-#### Structured Encoding
+#### 2. Structured Encoding
 During decryption:
 - The padding structure must be verified
 - Invalid padding can be detected
 
-#### Message Expansion
+#### 3. Message Expansion
 The plaintext space becomes much larger than the original message space, preventing trivial enumeration attacks
