@@ -1,6 +1,6 @@
 # RSA 32-bit Implementation and PKCS#1 v1.5 Padding
 ## Overview
-- This project implements a simplified version of the RSA cryptosystem, including:
+This project implements a simplified version of the RSA cryptosystem, including:
 - A textbook RSA implementation with a 32-bit public modulus
 - Key generation using 16-bit prime numbers
 - Modular fast exponentiation
